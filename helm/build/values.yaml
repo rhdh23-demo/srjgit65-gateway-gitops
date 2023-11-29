@@ -1,0 +1,15 @@
+app:
+  name: srjgit65-poi-gateway-app
+  namespace: srjgit65
+  cluster: .apps.rosa-pzz6v.9nln.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/rhdh23-demo/srjgit65-gateway
+  org: rhdh23-demo
+  name: srjgit65-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: srjgit65/poi-gateway-app
+  tag: latest
